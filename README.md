@@ -1,3 +1,3 @@
-# Silent Placa
+# Silent Place
 
 Minimal spatial signal substrate
