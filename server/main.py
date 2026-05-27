@@ -1,12 +1,12 @@
 import asyncio
 import websockets
 
-from protocol.serialization import decode_message
+from protocol.serialization import decode_packet
 
 
 async def handler(ws):
     async for message in ws:
-        data = decode_message(message)
+        data = decode_packet(message)
 
         print(data)
 
